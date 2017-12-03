@@ -385,3 +385,10 @@ webpack-init:
 	echo "module.exports = { entry: './entry.js', output: { filename: 'bundle.js' } }" > webpack.config.js
 webpack:
 	webpack
+
+# django-eb-test
+django-eb-test-create:
+	eb create django-eb-test
+# django-eb-test
+django-eb-test-terminate:
+	eb terminate django-eb-test
